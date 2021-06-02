@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card {
+  background-color: lightgray;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 40vw;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.card label {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  align-self: center;
+}
+
+.btn {
+  border-radius: 5px;
+  width: 50%;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.input-zipcode {
+  width: 50%;
+  height: 25px;
+  outline: none;
+  align-self: center;
+  border-radius: 7px;
+  margin-bottom: 0.7rem;
+}
+
+.response-card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#res-img {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+.res-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.reponse-field {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 2rem;
+}

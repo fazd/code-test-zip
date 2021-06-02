@@ -8,6 +8,45 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="container">
+		<h2 class="title">Zip code finder</h2>
+		<div class="card">
+			<label for="zipcode-input">Enter your Zip code</label>
+			<input type="text" id="zipcode-input" class="input-zipcode" placeholder="Enter your Zip Code">
+			<button type="button" class="btn" onclick="fetchData()">Search</button>
+			
+			<span class="res-title" >Information found</span>
+			<div class="response-card" id="res-card">
+
+				<div class="reponse-field">
+					<label for="res-country">Country: </label>
+					<input type="text" disabled id="res-country">
+				</div>
+
+				<div class="reponse-field">
+					<label for="res-state">State: </label>
+					<input type="text" disabled id="res-state">
+				</div>
+
+				<div class="reponse-field">
+					<label for="res-place-name">Place name: </label>
+					<input type="text" disabled id="res-place-name">
+				</div>
+
+				<div class="reponse-field">
+					<label for="res-longitude">Longitude: </label>
+					<input type="text" disabled id="res-longitude">
+				</div>
+
+				<div class="reponse-field">
+					<label for="res-latitude"> Latitude: </label>
+					<input type="text" disabled id="res-latitude">
+				</div>
+
+			</div>
+
+		</div>
+	</div>
 	
 	<script src="script.js"></script>
 </body>
